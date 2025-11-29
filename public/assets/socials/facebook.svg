@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img">
+  <title>Facebook</title>
+  <!-- Large white "f" suitable for dark backgrounds -->
+  <path fill="#ffffff" d="M22 12.07c0-5.52-4.48-10-10-10S2 6.55 2 12.07C2 17.01 5.64 21.24 10.5 22v-6.99H8.2v-2.84h2.3V9.75c0-2.3 1.38-3.57 3.5-3.57 1 0 1.9.08 2.12.11v2.47h-1.47c-1.15 0-1.37.55-1.37 1.36v1.78h2.74l-.36 2.84h-2.38V22C18.36 21.24 22 17.01 22 12.07z"/>
+</svg>

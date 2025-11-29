@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img">
+  <title>Gmail</title>
+  <!-- White envelope with red 'M' mark for Gmail; designed for dark backgrounds -->
+  <rect width="24" height="24" rx="4" fill="none" />
+  <path d="M3 6.5v11c0 .8.7 1.5 1.5 1.5h15c.8 0 1.5-.7 1.5-1.5v-11c0-.8-.7-1.5-1.5-1.5h-15C3.7 5 3 5.7 3 6.5z" fill="#ffffff"/>
+  <path d="M4.2 7.2l7.8 5.3 7.8-5.3v-.5c0-.2-.2-.4-.4-.4h-15c-.2 0-.4.2-.4.4v.5z" fill="#EA4335"/>
+  <path d="M4.2 16.8l7.8-5.3 7.8 5.3v-.1c0 .2-.2.4-.4.4h-15c-.2 0-.4-.2-.4-.4v.1z" fill="#ffffff"/>
+</svg>
