@@ -28,9 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Enthusiastic Developer- <br />
-            curious, aspiring in <br />
-            cybersecurity.
+            Curious developer, aspiring cybersecurity professional.
           </motion.p>
           <motion.div
             variants={variants}
@@ -73,7 +71,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Enthusiastic builder-curious, aspiring in cybersecurity.
+            Curious dev, aspiring in cybersecurity.
           </motion.p>
           <motion.div
             variants={variants}
