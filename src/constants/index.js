@@ -10,8 +10,7 @@ export const myProjects = [
       "Built a responsive React frontend with interactive charts, filters, and transaction management.",
       "Added authentication with JWT and deployed the app for production use.",
     ],
-    href: "",
-    logo: "",
+    href: "https://github.com/VladymereBilan/Expense-Tracker-Project",
     image: "/assets/projects/Expense Tracker.jpg",
     tags: [
       {
@@ -47,8 +46,7 @@ export const myProjects = [
       "Integrated Twilio's REST API to send transactional SMS messages and OTPs from the application.",
       "Persisted data with SQLite for easy local deployment; included Dockerfile for containerized runs and example scripts for automation.",
     ],
-    href: "",
-    logo: "",
+    href: "https://github.com/VladymereBilan/Utilities-Project",
     image: "/assets/projects/Utilities Python Project.jpg",
     tags: [
       {
@@ -69,44 +67,7 @@ export const myProjects = [
       {
         id: 4,
         name: "Docker",
-        path: "/assets/logos/visualstudiocode.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Movie Hub (React Native)",
-    description:
-      "A mobile application built with React Native and Expo that lets users discover movies, view details, and manage favorites using TMDB API.",
-    subDescription: [
-      "Built the UI with React Native and Expo for cross-platform iOS/Android support.",
-      "Integrated The Movie Database (TMDB) API for movie listings, search, and detailed metadata.",
-      "Added local favorites and watchlist using AsyncStorage and offline caching for improved UX.",
-      "Implemented navigation with React Navigation and state management using Context/Redux; included trailer playback and sharing features.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/MovieHub.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 3,
-        name: "GitHub",
-        path: "/assets/logos/github.svg",
-      },
-      {
-        id: 4,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        path: "/assets/logos/docker.svg",
       },
     ],
   },
@@ -121,24 +82,23 @@ export const myProjects = [
       "Added collision detection, enemy AI, level progression, and scoring mechanics for engaging gameplay.",
       "Packaged the game with build scripts and documented development steps for team collaboration and release.",
     ],
-    href: "",
-    logo: "",
+    href: "https://github.com/VladymereBilan/Aswang-Slayer",
     image: "/assets/projects/Aswang.jpg",
     tags: [
       {
         id: 1,
         name: "Java",
-        path: "/assets/logos/visualstudiocode.svg",
+        path: "/assets/logos/java.svg",
       },
       {
         id: 2,
         name: "Swing",
-        path: "/assets/logos/visualstudiocode.svg",
+        path: "/assets/logos/java.svg",
       },
       {
         id: 3,
         name: "Aseprite",
-        path: "/assets/logos/visualstudiocode.svg",
+        path: "/assets/logos/aseprite.svg",
       },
       {
         id: 4,
@@ -159,7 +119,6 @@ export const myProjects = [
       "Deployed serverless API routes to Vercel with automatic deployments from the Git repository.",
     ],
     href: "https://fitness-tracker-api-rosy.vercel.app/",
-    logo: "",
     image: "/assets/projects/FitnessTrackerAPI.jpg",
     tags: [
       {
@@ -199,7 +158,7 @@ export const mySocials = [
   },
   {
     name: "Telegram",
-    href: "t.me/vladymere",
+    href: "https://t.me/vladymere",
     icon: "/assets/socials/telegram.svg",
   },
 ];
@@ -237,55 +196,5 @@ export const experiences = [
       "Completing hands-on projects and labs including secure coding exercises, CTF challenges, and building portfolio applications to apply concepts.",
       "Following structured learning paths and preparing for entry-level security certifications while continuing to expand practical web development skills.",
     ],
-  },
-];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
   },
 ];

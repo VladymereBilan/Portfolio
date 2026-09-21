@@ -24,7 +24,7 @@ const ProjectDetails = ({
           onClick={closeModal}
           className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
         >
-          <img src="assets/close.svg" className="w-6 h-6" />
+          <img src="/assets/close.svg" className="w-6 h-6" alt="Close" />
         </button>
         <img
           src={image}
@@ -54,15 +54,17 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 font-medium hover-animation"
-            >
-              View Project
-              <img src="assets/arrow-up.svg" className="w-4 h-4" />
-            </a>
+            {href && (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-medium hover-animation"
+              >
+                View Project
+                <img src="/assets/arrow-up.svg" className="w-4 h-4" alt="" />
+              </a>
+            )}
           </div>
         </div>
       </motion.div>

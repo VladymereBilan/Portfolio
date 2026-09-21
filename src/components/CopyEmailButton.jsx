@@ -5,12 +5,13 @@ const CopyEmailButton = () => {
   const email = "vladymeresbilan@gmail.com";
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(email);
-    setCopied(true);
-
-    setTimeout(() => {
-      setCopied(false);
-    }, 2000);
+    navigator.clipboard
+      .writeText(email)
+      .then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      })
+      .catch((err) => console.error("Failed to copy email:", err));
   };
   return (
     <motion.button
@@ -29,7 +30,7 @@ const CopyEmailButton = () => {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.1, ease: "easeInOut" }}
           >
-            <img src="assets/copy-done.svg" className="w-5" alt="copy Icon" />
+            <img src="/assets/copy-done.svg" className="w-5" alt="copy Icon" />
             Email has Copied
           </motion.p>
         ) : (
@@ -41,7 +42,7 @@ const CopyEmailButton = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.1 }}
           >
-            <img src="assets/copy.svg" className="w-5" alt="copy icon" />
+            <img src="/assets/copy.svg" className="w-5" alt="copy icon" />
             Copy Email Address
           </motion.p>
         )}
