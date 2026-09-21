@@ -10,6 +10,10 @@ export const myProjects = [
       "Designed the visitor check-in/check-out flow end-to-end as our group's capstone project.",
     ],
     href: "https://github.com/VladymereBilan/NEU-PASS-2",
+    liveLinks: [
+      { label: "Admin Login", href: "https://neu-pass.com" },
+      { label: "Visitor Registration", href: "https://neu-pass.com/visit" },
+    ],
     image: "/assets/projects/accessories.jpg",
     tags: [
       {
