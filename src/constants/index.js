@@ -21,12 +21,12 @@ export const myProjects = [
       {
         id: 2,
         name: "Node.js",
-        path: "/assets/logos/NodeJS.png",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 3,
         name: "MongoDB",
-        path: "/assets/logos/MongoDB.png",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
@@ -52,7 +52,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/Python.jpg",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
