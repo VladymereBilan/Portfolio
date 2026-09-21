@@ -50,6 +50,9 @@ export const myProjects = [
       "Added authentication with JWT and deployed the app for production use.",
     ],
     href: "https://github.com/VladymereBilan/Expense-Tracker-Project",
+    liveLinks: [
+      { label: "Live Demo", href: "https://expense-tracker-liard-pi.vercel.app" },
+    ],
     image: "/assets/projects/Expense Tracker.jpg",
     tags: [
       {
