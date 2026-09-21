@@ -14,7 +14,7 @@ export const myProjects = [
       { label: "Admin Login", href: "https://neu-pass.com" },
       { label: "Visitor Registration", href: "https://neu-pass.com/visit" },
     ],
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/neu-pass pic.jpg",
     tags: [
       {
         id: 1,
