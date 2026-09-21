@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 
 const Project = ({
-  id,
   title,
   description,
   subDescription,
@@ -42,7 +41,6 @@ const Project = ({
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       {isHidden && (
         <ProjectDetails
-          id={id}
           title={title}
           description={description}
           subDescription={subDescription}

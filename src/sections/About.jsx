@@ -27,7 +27,7 @@ const About = () => {
               currently learning SIEM, incident response, and network security.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         {/* Grid 2 */}
         <div className="grid-default-color grid-2">
@@ -88,7 +88,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              Guess where I am from? Hint. Near Russia
+              Based in the Philippines, working in GMT+8 (PHT).
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">

@@ -107,42 +107,6 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "Fitness Tracker API",
-    description:
-      "A RESTful Fitness Tracker API built with Node.js and Express and deployed to Vercel.",
-    subDescription: [
-      "Designed REST endpoints for workouts, exercises, and user profiles (CRUD operations).",
-      "Implemented authentication with JWT, input validation, and structured error handling.",
-      "Persisted data using a lightweight database and added request logging and rate limiting for reliability.",
-      "Deployed serverless API routes to Vercel with automatic deployments from the Git repository.",
-    ],
-    href: "https://fitness-tracker-api-rosy.vercel.app/",
-    image: "/assets/projects/FitnessTrackerAPI.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Node.js",
-        path: "/assets/logos/NodeJS.png",
-      },
-      {
-        id: 2,
-        name: "Express",
-        path: "/assets/logos/express.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 4,
-        name: "Vercel",
-        path: "/assets/logos/vercel.svg",
-      },
-    ],
-  },
 ];
 
 export const mySocials = [

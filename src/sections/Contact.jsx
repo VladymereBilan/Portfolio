@@ -30,9 +30,7 @@ const Contact = () => {
     setIsLoading(true);
 
     try {
-      console.log("From submitted:", formData);
-      // Send the email. Also return the response for better diagnostics.
-      const response = await emailjs.send(
+      await emailjs.send(
         "service_9vt2u79",
         "template_9jm9zjt",
         {
@@ -44,7 +42,6 @@ const Contact = () => {
         },
         "e4ZqqzupMhS53XGy8"
       );
-      console.log("EmailJS response:", response);
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
       showAlertMessage("success", "Your message has been sent!");
@@ -81,12 +78,12 @@ const Contact = () => {
           <h2 className="text-heading">Let's Connect</h2>
           <p className="font-normal text-neutral-400">
             Whether you're looking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            platform, or bring a unique project to life, I'm here to help.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
-            <label htmlFor="name" className="feild-label">
+            <label htmlFor="name" className="field-label">
               Full Name
             </label>
             <input
@@ -102,7 +99,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="email" className="feild-label">
+            <label htmlFor="email" className="field-label">
               Email
             </label>
             <input
@@ -118,7 +115,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="message" className="feild-label">
+            <label htmlFor="message" className="field-label">
               Message
             </label>
             <textarea
@@ -128,7 +125,6 @@ const Contact = () => {
               rows="4"
               className="field-input field-input-focus"
               placeholder="Share your thoughts..."
-              autoComplete="message"
               value={formData.message}
               onChange={handleChange}
               required

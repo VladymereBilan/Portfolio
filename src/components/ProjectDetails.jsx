@@ -1,6 +1,5 @@
 import { motion } from "motion/react";
 const ProjectDetails = ({
-  id,
   title,
   description,
   subDescription,
@@ -9,10 +8,6 @@ const ProjectDetails = ({
   href,
   closeModal,
 }) => {
-  const imgClass =
-    id === 3
-      ? "w-full rounded-t-2xl max-h-64 object-contain"
-      : "w-full rounded-t-2xl";
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
       <motion.div
@@ -33,7 +28,7 @@ const ProjectDetails = ({
             e.currentTarget.onerror = null;
             e.currentTarget.src = "/assets/projects/accessories.jpg";
           }}
-          className={imgClass}
+          className="w-full rounded-t-2xl"
         />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
