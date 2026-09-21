@@ -62,7 +62,7 @@ export const myProjects = [
       {
         id: 3,
         name: "GitHub",
-        path: "/assets/logos/github.svg",
+        path: "/assets/socials/github.svg",
       },
       {
         id: 4,
