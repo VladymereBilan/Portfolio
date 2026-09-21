@@ -1,5 +1,40 @@
 export const myProjects = [
   {
+    id: 6,
+    title: "NEU PASS (Capstone)",
+    description:
+      "A mobile-based visitor management system built with Expo and React Native for New Era University, replacing manual visitor logbooks with QR-code passes.",
+    subDescription: [
+      "Built cross-platform with Expo Router and React Native, backed by Supabase for auth, database, and realtime data.",
+      "Generates QR-code visitor passes and scans them on-device using the camera and on-device text extraction for ID verification.",
+      "Designed the visitor check-in/check-out flow end-to-end as our group's capstone project.",
+    ],
+    href: "https://github.com/VladymereBilan/NEU-PASS-2",
+    image: "/assets/projects/accessories.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "React Native",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Expo",
+        path: "/assets/logos/expo.svg",
+      },
+      {
+        id: 3,
+        name: "Supabase",
+        path: "/assets/logos/supabase.svg",
+      },
+      {
+        id: 4,
+        name: "TypeScript",
+        path: "/assets/logos/typescript.svg",
+      },
+    ],
+  },
+  {
     id: 1,
     title: "Expense Tracker App",
     description:
